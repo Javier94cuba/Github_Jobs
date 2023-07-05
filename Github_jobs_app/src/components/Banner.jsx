@@ -1,7 +1,7 @@
-export const Banner = () => {
+export  function Banner  {
   return (
     <div className=".banner_container">
-      <p>Github jobsasdasd</p>
+      <p>Github job</p>
     </div>
   );
 };
