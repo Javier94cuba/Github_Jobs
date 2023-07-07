@@ -1,7 +1,7 @@
 export function Banner() {
   return (
     <div className="banner_container">
-      <p>hola</p>
+      <h1>Github Jobs</h1>
     </div>
   );
 }

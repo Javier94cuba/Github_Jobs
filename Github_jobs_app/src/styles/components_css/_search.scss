@@ -1,7 +1,12 @@
 .search_container{
-    background-color: black;
-    image-orientation: 0grad;
-    height: 60px;
-    color: aqua;
-    resize: horizontal;
+    margin-left: 100px;
+
+    img{
+        width: 1201px;
+        height: 138px;
+        top: 100px;
+        left: 120px;
+        border-radius: 8px;
+
+    }
 }
