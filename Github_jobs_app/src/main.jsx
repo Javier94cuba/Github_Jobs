@@ -4,11 +4,13 @@ import "./styles/global_style.scss";
 import { Banner } from "./components/Banner";
 import { Search } from "./components/Search";
 import { Lefside } from "./components/Lefside";
+import { Rightside } from "./components/Rightside";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div className="ui_container">
     <Banner />
     <Search />
     <Lefside />
+    <Rightside />
   </div>
 );

@@ -1,3 +1,5 @@
+import { Lefside_child } from "./child_components/Lefside_child.jsx";
+
 export function Lefside() {
   return (
     <div className="lefside_container">
@@ -16,14 +18,10 @@ export function Lefside() {
       ></textarea>
       <span id="countrys_imput">
         <br />
-        <input name="countrys" type="radio" value="" />
-        London <br />
-        <input name="countrys" type="radio" value="" />
-        Amsterdam <br />
-        <input name="countrys" type="radio" value="" />
-        New York <br />
-        <input name="countrys" type="radio" value="" />
-        Berlin
+        <Lefside_child country="London" />
+        <Lefside_child country="Amsterdan" />
+        <Lefside_child country="New York" ischeked={true} />
+        <Lefside_child country="Berlin" />
       </span>
     </div>
   );
