@@ -10,7 +10,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <div className="ui_container">
     <Banner />
     <Search />
-    <Lefside />
-    <Rightside />
+    <div className="flex_siders">
+      <Lefside />
+      <Rightside />
+    </div>
   </div>
 );

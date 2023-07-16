@@ -1,14 +1,15 @@
 .lefside_container {
-  margin-left: 100px;
+  margin-left: 300px;
   margin-top: 30px;
   width: 40%;
+
   textarea {
     width: 300px;
-    height: 48px;
-    flex-shrink: 0;
+    height: 38px;
+    text-align: center;
     border-color: white;
-    // border-radius: 4px;
     background: #fff;
+    padding-top: 30px;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
   }
 
@@ -35,10 +36,9 @@
   ::placeholder {
     color: #b9bdcf;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-align: center;
   }
 
@@ -47,10 +47,8 @@
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 1000;
     line-height: normal;
-    line-height: 21px;
-    // width: 85px;
-    // height: 21px;
+    line-height: 31px;
   }
 }

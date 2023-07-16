@@ -1,3 +1,87 @@
+.prueba {
+  width: 100%;
+}
+
 .rightside_container {
-  background-color: red;
+  width: 64%;
+  height: 90px;
+  padding: 10px;
+  display: flex;
+  margin-top: 31px;
+  background-color: #ffffff;
+
+  img {
+    width: 90px;
+    height: 90px;
+    left: 543px;
+    border-radius: 4px;
+  }
+
+  .information .name_text {
+    color: #334680;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .information .offer_job_text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #334680;
+    width: 228px;
+    height: 21px;
+    top: 314px;
+    left: 649px;
+    margin-left: 15px;
+  }
+  .information .contract_of_job {
+    font-family: Roboto;
+    border: 1px solid #334680;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #334680;
+    margin-left: 15px;
+    padding: 3px;
+  }
+
+  .right_info .days {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: gray;
+    margin-top: 55px;
+    margin-left: 290px;
+    position: absolute;
+  }
+
+  .right_info .city {
+    font-family: Roboto;
+
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: gray;
+    margin-top: 55px;
+    margin-left: 200px;
+    position: absolute;
+  }
+
+  .right_info {
+    display: flex;
+  }
 }
