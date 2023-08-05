@@ -1,13 +1,16 @@
-import { Lefside_child } from "./child_components/Lefside_child.jsx";
+// import { Lefside_child } from "./child_components/Lefside_child";
 
-export function Lefside() {
+export function Lefside({ setValue }) {
+  const handleChange = (event) => {
+    setValue(event.target.checked);
+  };
   return (
     <div className="lefside_container">
       <input
         type="checkbox"
         id="fulltime"
-        name="fulltime_checkbox"
-        value="Full time"
+        name="fullTime"
+        onChange={handleChange}
       />
       <span id="fulltime_span">Full time</span>
       <p id="location_text">Location</p>
@@ -18,10 +21,6 @@ export function Lefside() {
       ></textarea>
       <span id="countrys_imput">
         <br />
-        <Lefside_child country="London" />
-        <Lefside_child country="Amsterdan" />
-        <Lefside_child country="New York" ischeked={true} />
-        <Lefside_child country="Berlin" />
       </span>
     </div>
   );

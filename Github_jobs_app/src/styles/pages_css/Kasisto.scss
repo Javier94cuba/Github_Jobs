@@ -1,0 +1,77 @@
+.Github_Jobs {
+  display: flex;
+}
+
+.Job_search .Github_Jobs {
+  color: #282538;
+  font-weight: 1000;
+}
+
+.Job_search .Jobs {
+  color: #282538d9;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.Job_search .Lef_side .Back_to_search {
+  display: flex;
+  align-items: center;
+  color: rgb(52, 52, 165);
+
+  span {
+    margin-left: 7px;
+  }
+}
+
+.Lef_side {
+  margin-left: 100px;
+
+  p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+.Job_search {
+  display: flex;
+}
+.Right_side_Kasistowork {
+  margin-left: 80px;
+  margin-top: 55px;
+  width: 889px;
+  height: 912px;
+  top: 262px;
+  left: 428px;
+  color: #334680;
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+}
+.Full_time {
+  margin-left: 15px;
+  margin-top: 7px;
+  border: 1px solid #334680;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.days_ago {
+  display: flex;
+  align-items: center;
+  margin-top: -19px;
+  font-size: 12px;
+}
+.text_ago {
+  font-size: 11px;
+  margin-left: 4px;
+  color: gray;
+}
+
+.how_aplly {
+  color: gray;
+}

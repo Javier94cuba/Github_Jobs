@@ -21,24 +21,22 @@
     padding-top: 17px;
   }
 
-  textarea {
-    width: 630px;
+  form {
+    width: 800px;
     border: #ffffff;
     color: #1e86ff;
     display: inline-flex;
-    textarea ::placeholder {
-      color: blue;
-      font-size: 1.5em;
+    .imput_text {
+      width: 100%;
+      border-color: white;
     }
   }
 }
 button {
   background-color: #1e86ff;
   color: white;
-  width: 146px;
+  width: 25%;
   height: 47px;
-  top: 146px;
-  left: 965px;
   border-radius: 4px;
   border: 4px;
   margin: 5px;
