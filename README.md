@@ -4,6 +4,8 @@ Proyecto creado con vite+react+javascript+scss
 
 Ejercicio propuesto por devachallenges.io https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps
 
+#Preview utilzando Vercel
+https://github-jobs-ashy.vercel.app (puedes ver online, este landing page)
 
 Historia de usuario: Puedo ver una lista de trabajos en una ciudad por defecto<br/>
 Historia de usuario: Puedo buscar trabajos con una palabra clave dada<br/>
